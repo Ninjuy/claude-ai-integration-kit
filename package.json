@@ -1,0 +1,27 @@
+{
+  "name": "claude-ai-integration-kit",
+  "version": "1.0.0",
+  "description": "A practical TypeScript toolkit for integrating Claude AI — chat, streaming, tool use, document processing, and prompt caching examples.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "example:chat": "ts-node src/examples/01-basic-chat.ts",
+    "example:stream": "ts-node src/examples/02-streaming.ts",
+    "example:tools": "ts-node src/examples/03-tool-use.ts",
+    "example:docs": "ts-node src/examples/04-document-qa.ts",
+    "example:vision": "ts-node src/examples/05-vision.ts"
+  },
+  "keywords": ["claude", "anthropic", "ai", "typescript", "llm", "chatbot"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
